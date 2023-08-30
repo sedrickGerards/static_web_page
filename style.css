@@ -23,7 +23,7 @@ body {
   background-color: rgb(76, 93, 246);
   /* border-radius:20px 0px 0px 20px; */
   padding-top: 10px;
-  flex: 2;
+  flex: 1.2;
 }
 
 #tabs > ul {
@@ -31,19 +31,17 @@ body {
   width: fit-content;
 }
 
-.tabs-list5,
-.tabs-list7 {
+.tabs-list5, .tabs-list7 {
   border-bottom: 1px solid #fff;
   padding-bottom: 14px;
 }
 
 #tabs > ul > li,
 a {
-  
   color: #fff;
   text-decoration: none;
   list-style: none;
-  margin: 50px 0px;
+  margin: 50px -20px;
   padding: 10px 40px;
   transition: background-color 0.3s;
   -webkit-transition: background-color 0.3s;
@@ -64,7 +62,7 @@ iconify-icon {
 #main-content {
   background-color: rgba(249, 242, 255, 0.924);
   display: block;
-  flex: 9;
+  flex: 8;
   padding-left: 40px;
 }
 .search-bar > input {
@@ -74,7 +72,7 @@ iconify-icon {
   margin: 40px 0px 20px 0px;
   height: 30px;
   padding-left: 15px;
-  width: 30%;
+  width: 20%;
 }
 
 #nav-bar > ul {
@@ -91,10 +89,6 @@ iconify-icon {
   border-radius: 5px;
   width: max-content;
 
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
 }
 #nav-bar > ul > button {
   margin-left: 50px;
@@ -249,7 +243,8 @@ justify-content: space-between;
 #profile {
   background: #fff;
   flex: 4;
-  overflow: hidden;
+  /* overflow: hidden; */
+  width: 100%;
   
 }
 
@@ -261,7 +256,7 @@ justify-content: space-between;
   padding: auto;
   justify-content: space-between;
   margin: 20px auto;
-  width: 85%;
+  width: 95%;
 }
 .name img{
   border-radius: 42%;
