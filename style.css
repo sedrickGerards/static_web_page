@@ -75,10 +75,7 @@ iconify-icon {
   width: 25%;
   margin: 3% 0;
   border-radius: 8px;
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  -ms-border-radius: 8px;
-  -o-border-radius: 8px;
+
 }
 
 .search-bar > input {
@@ -160,10 +157,6 @@ iconify-icon {
     height: 160px;
     width: 300px;
     border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
   }
   
   .purple-container {
